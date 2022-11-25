@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDeviceActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="103dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.156">
+
+        <EditText
+            android:id="@+id/editTextRoom13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="103dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.156">
+
+        <EditText
+            android:id="@+id/editTextRoom7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="306dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#91ABF8"
+            android:gravity="center"
+            android:text="Добавление оборудования"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Profile"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="208dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="136dp"
+        android:drawableLeft="@drawable/ic_add"
+        android:onClick="Add"
+        android:text="Добавить"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6_1"
+        android:layout_width="103dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="232dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.156">
+
+        <EditText
+            android:id="@+id/editTextRoom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRoom6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите значение"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

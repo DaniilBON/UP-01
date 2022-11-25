@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Оборудование</string>
+    <string name="dialogName">Справка</string>
+    <string name="dialogMessage">Программу разработал для учебной практики по ПМ.01
+                                        "Разработка мобильных приложений"
+                                 Студент отделения информационных технологий группы ИС-32
+                                          Бондарев Даниил Сергеевич</string>
+</resources>
